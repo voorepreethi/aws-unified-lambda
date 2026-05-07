@@ -170,6 +170,7 @@ Parameters:
     AllowedValues:
       - "US"
       - "EU"
+      - "JP"
   LogGroupConfig:
     Description: "JSON array of objects representing your LogGroup and Filters (if applicable). For example: [{\"LogGroupName\":\"logGroup1\",\"FilterPattern\":\"filter1\"}]"
     Type: String

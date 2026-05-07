@@ -52,6 +52,7 @@ Parameters:
     AllowedValues:
       - "US"
       - "EU"
+      - "JP"
   NewRelicAccountId: 
     Type: String
     Description: Id of the account in New relic
