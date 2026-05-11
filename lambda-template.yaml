@@ -41,11 +41,12 @@ Parameters:
     ConstraintDescription: "The parameter value cannot be empty, contain spaces, and must be alphanumeric and can contain symbols."
   NewRelicRegion:
     Type: String
-    Description: Datacenter where the data will be sent (US/EU), DO NOT TOUCH
+    Description: Datacenter where the data will be sent (US/EU/JP), DO NOT TOUCH
     Default: "US"
     AllowedValues:
       - "US"
       - "EU"
+      - "JP"
   NewRelicAccountId: 
     Type: String
     Description: Id of the account in New relic

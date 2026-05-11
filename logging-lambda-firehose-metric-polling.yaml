@@ -82,8 +82,8 @@ Parameters:
     ConstraintDescription: must only contain numbers
   NewRelicRegion:
     Type: String
-    Description: Datacenter where the data will be sent (US/EU), DO NOT TOUCH
-    AllowedValues: [US, EU]
+    Description: Datacenter where the data will be sent (US/EU/JP), DO NOT TOUCH
+    AllowedValues: [US, EU, JP]
     Default: US
   IntegrationName:
     Type: String
